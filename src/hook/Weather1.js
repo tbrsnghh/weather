@@ -19,7 +19,7 @@ export default function Weather1() {
       })
       .catch(function (error) {
         console.log(error);
-        if (error.response.status == "404") {
+        if (error.response.status === "404") {
           setErr("invalid city name");
         }
       });
@@ -68,7 +68,7 @@ export default function Weather1() {
               <Col md='5'className="text-center">
                 <h5>{data.weather[0].description.toUpperCase()}</h5>
                 <img className="image"
-                  src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`}
+                  src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`} alt="icon"
                 ></img>
               </Col>
             </Row>
