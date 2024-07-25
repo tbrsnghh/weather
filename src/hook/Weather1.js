@@ -50,7 +50,7 @@ export default function Weather1() {
         />
         <h1 className="text-center mx-5">WEATHER APP</h1>
       </div>
-      {err && <h1>{err}</h1>}
+      {/* {err && <h1>{err}</h1>} */}
       <div className="cover p-3 mt-2 mx-5" cover p-3>
         {data && (
           <>
