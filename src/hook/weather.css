@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+body{
+  background-image: url("https://images.unsplash.com/photo-1503410191579-3a48e52c9c3e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.cover {
+  background: rgb(116,105,182);
+  background: radial-gradient(circle, rgba(116,105,182,0.8) 0%, rgba(225,175,209,0.8) 100%);
+}
+.CityInput {
+  width: 400px !important;
+}
+.container {
+  width: 60%;
+  height: 70vh;
+  background: rgb(255,230,230);
+  background: radial-gradient(circle, rgba(255,230,230,0.7) 0%, rgba(225,175,209,0.7) 100%);
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image{
+  width: 150px;
+}
