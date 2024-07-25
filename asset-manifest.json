@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tbrsnghh/weather/static/css/main.fe20d031.css",
+    "main.js": "/tbrsnghh/weather/static/js/main.7ad1d2ef.js",
+    "index.html": "/tbrsnghh/weather/index.html",
+    "main.fe20d031.css.map": "/tbrsnghh/weather/static/css/main.fe20d031.css.map",
+    "main.7ad1d2ef.js.map": "/tbrsnghh/weather/static/js/main.7ad1d2ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe20d031.css",
+    "static/js/main.7ad1d2ef.js"
+  ]
+}
